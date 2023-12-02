@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family:'Encode Sans Expanded',sans-serif;
+}
+.headerHome{
+    height: 80px;
+    width: 100vw;
+    margin:0;
+    background-color: #DFF8F8;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    background-image: url("./Assets/Images/logo.png");
+    background-size: cover;
+    height: 70px;
+    width:150px;
+}
+.nav-bar{
+    /* height: 140px; */
+    width: 60vw;
+    text-align: center;
+    margin-top: -5rem;
+    display: flex;
+    flex-direction: row;
+}
+.navbar-elements{
+    position: relative;
+    top: 92px;
+    text-decoration: none;
+    color: #0D6869;
+    
+
+    margin-left: 5rem;
+    font-size: 1.3rem;
+    padding: 4px;
+  
+}
+
+.photoHome{
+    /* margin-top: 8px; */
+    height: 80px;
+    width: 80px;
+    background-image: url("./Assets/Images/profile-photo.png");
+    background-size: cover;
+    margin-left: 8rem;
+    margin-right: 2rem;
+}
+
+body{
+    background-color: #CAF4F4;
+    overflow-x: hidden;
+    font-family: 'Montserrat', 'sans-serif';
+}
+.infoHome{
+    height: 450px;
+    width: 75vw;
+    border-radius: 1rem;
+    background-color: #CAEFD1;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left:12%;
+}
+.infoHome2{
+    height: 63vh;
+    width: 75vw;
+    border-radius: 1rem;
+    background-color: #CAEFD1;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left:12%;
+}
+.text-infoHome{
+    margin: 0;
+    height: 450px;
+    width: 550px;
+    border-radius: 1rem;
+}
+.image-info1{
+    background-image: url("./Assets/Images/Download_Doctors_Concept_Illustration_for_free-removebg-preview\ 1.png");
+    background-size: cover;
+    height: 450px;
+    width: 450px;
+    margin: 0px;
+}
+.msg{
+    align-items: center;
+    text-align: center;
+    font-size: 2.8rem;
+    color: #6999B3;
+    margin-top:2rem;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+}
+.text-infoHome p{
+    /* font-size: 1.4rem;
+text-align: center;
+margin:2rem; */
+color: #6999B3;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+#toknow{
+    margin:0 9rem 0 ;
+    border: 1px solid black;
+    height: 4rem;
+    width: 15rem;
+    text-align: center;
+    border-radius: 1rem;
+    background:linear-gradient(to left,#99E5A2,#41D8DD);
+    color:#0D6869;
+    font-size: 1.8rem;
+}
+.communicationHome{
+    height: 360px;
+    width: 77vw;
+    border-radius: 1rem;
+    background-color: #CAF4F4;
+    margin-top: 40px;
+    margin-left: 155px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.commHome1{
+    margin: 0;
+    height: 340px;
+    width:210px;
+    border-radius: 1rem;
+    background-color: #CAEFD1;
+}
+.img-com1{
+    height: 250px;
+    width: 210px;
+    background-image: url("./Assets/Images/Emergency.png");
+    background-size: cover;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.img-com2{
+    height: 250px;
+    width: 210px;
+    background-image: url("./Assets/Images/TeleConsultation-removebg-preview.png");
+    background-size: cover;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.img-com3{
+    height: 250px;
+    width: 210px;
+    background-image: url("./Assets/Images/home4-removebg.png");
+    /* background-size: cover; */
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.img-com4{
+    height: 250px;
+    width: 210px;
+    background-image: url("./Assets/Images/Reports.png");
+    background-size: cover;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.info-comHome{
+text-align: center;
+margin-top: 1rem;
+
+}
+.info-comHome a{
+text-decoration: none;
+color: #0D6869;
+font-size: 1.25rem;
+font-weight: bold;
+display: flex;
+justify-content: center;
+}
+.info-comHome p{
+    color: #906E69;
+}
+.image-info2{
+    background-image: url("./Assets/Images/home6.png");
+    background-size: cover;
+    height: 450px;
+    width: 490px;
+    margin: 0px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.image-info3{
+    background-image: url("./Assets/Images/BillsandInsuarance.png");
+    background-size:cover;
+    height: 62vh;
+    width: 25vw;
+    margin: 0px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.image-info4{
+    background-image: url("./Assets/Images/home8.png");
+    background-size: cover;
+    height: 450px;
+    width: 480px;
+    margin: 0px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.blank{
+    margin: 6.8rem;
+    height: 0;
+    width: 80vw;
+    border: 1px solid black;
+}
+.review{
+    width: 75vw;
+    height: 300px;
+    margin-top: 6.8rem;
+    margin-bottom: 6.8rem;
+    margin-left: 12%;
+    border-radius: 1.5rem;
+    background-color: #CAEFD1;
+    text-align: center;
+}
+.review-info{
+ font-size: 3rem;
+ font-weight: bold;
+ margin-top: 100px;
+ color:#0D6869;
+}
+.contactus{
+    height: 300px;
+    width:100vw;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    color:linear-gradient(to top,#4998A0,#C9EFD1);
+    
+}
+.contactus
+:hover{
+color: linear-gradient(270deg, #12ec33 0%, #0688ce 100%);} 
+
+
+.logonew{
+    position: relative;
+    top: 90px;
+    margin-left: 35rem;
+
+    background-size: cover;
+    background-image: url("./Assets/Images/logo4-removebg-preview\ 1.png");
+    height: 175px;
+    width: 300px;
+}
+.contactus p{
+    position: relative;
+color:beige;
+font-size: 1.5rem;
+    top: 90px;
+
+    margin-left: 41rem;
+
+}

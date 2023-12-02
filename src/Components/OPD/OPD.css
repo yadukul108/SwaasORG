@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background: #CAF4F4;;
+}
+#textboxopd {
+    width: 500px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #DFF8F8;
+    font-size: larger;
+    margin-top: 0.8rem;
+}
+#opdimages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #0D6869;
+    font-family: Inter;
+}
+#opdbody {
+    padding-top: 30px;
+    height: 650px;
+}
+.footer{
+
+    height: 400px;
+    width: 100vw;
+    background:linear-gradient(#45969F,#45969F);
+  }
+  .custom-radio {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+    width: 20px; /* Increase the width to make the radio button larger */
+    height: 20px;
+}
+
+.custom-radio::before {
+    content: "";
+    display: inline-block;
+   
+    border: 2px solid #3498db;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+
+.opdimg {
+    background: #CAEFD1;
+    height: 400px;
+    width: 200px;
+    color: #0D6869;
+    /* padding-top: 5px; */
+    text-align: center;
+    border-radius: 1.5rem;
+}
+.opdimg:hover{
+    transform: scale(1.05);
+     /* Scale the element to 120% of its original size on hover */
+     background: #45969F;
+
+}
+.tooth {
+    margin-top: 60px;
+    width: 180px;
+    height: 269px;
+background-image: url("./images/tooth.png");
+background-size: cover;
+}
+.stethoscope {
+    margin-top: 120px;
+    width: 180px;
+    height: 210px;
+background-image: url("./images/stethoscope.png");background-size: cover;
+}
+.hand {
+    margin-top: 60px;
+    width: 180px;
+    height: 200px;
+background-image: url("./images/hand.png");background-size: cover;
+}
+.bed{
+    margin-top: 120px;
+    width: 180px;
+    height: 200px;
+background-image: url("./images/bed.png");background-size: cover;
+}
+.homeo {
+    margin-top: 60px;
+    width: 180px;
+    height: 200px;
+background-image: url("./images/homeo.png");background-size: cover;
+}
+.yoga {
+    margin-top: 120px;
+    width: 180px;
+height: 200px;
+background-image: url("./images/yoga.png");background-size: cover;
+}
