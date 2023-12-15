@@ -1,12 +1,15 @@
 import React  from 'react'
-import Logo from "../../SwaasIcons/swaaslogo.svg"
+import Logo from '../Logo/Logo'
+
+// import Logo from "../../SwaasIcons/swaaslogo.svg"
 import {Link} from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
       <nav>        <div className="logo">
-          <img src={Logo} alt=''/>
+          {/* <img src={Logo} alt=''/> */}
+          <Logo/>
         </div>
         <div className="services">
 
