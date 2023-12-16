@@ -43,7 +43,6 @@ const App = () => {
           <Route exact path='/SignUp' element={<SignUp/>}/>       
           <Route exact path='/Teleconsultation' element={<Teleconsultation/>}/> 
           <Route exact path='/Doctors' element={<Doctors/>}/> 
-
         </Routes>
       </Main>
     </div>
